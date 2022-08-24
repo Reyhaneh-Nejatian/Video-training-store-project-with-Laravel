@@ -1,0 +1,15 @@
+{
+    "name": "arghavan/front",
+    "autoload": {
+        "psr-4": {
+            "arghavan\\Front\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\arghavan\\Front\\Providers\\FrontServiceProvider"
+            ]
+        }
+    }
+}

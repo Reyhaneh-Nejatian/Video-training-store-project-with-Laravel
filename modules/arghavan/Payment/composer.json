@@ -1,0 +1,15 @@
+{
+    "name": "arghavan/payment",
+    "autoload": {
+        "psr-4": {
+            "arghavan\\Payment\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\arghavan\\Payment\\Providers\\PaymentServiceProviders"
+            ]
+        }
+    }
+}
